@@ -1,0 +1,56 @@
+thead{
+    background: red;
+    border: solid 1px black;
+    border-right: solid 1px black;
+    color: white;
+}
+th{
+    border: solid 1px black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+td{
+    
+    background: #e6e6e6;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    border: solid 1px #b9b1b1;
+}
+.buttondeyis{
+    background: #3a3aff;
+    color: white;
+    border: solid 1px blue;
+}
+.buttonsil{
+    background: red;
+    color: white;
+    border: solid 1px #da0101;
+}
+input,select,.frontbtn{
+    width: 100%;
+    background: transparent;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border: 1px solid rgb(0, 0, 0, 0.12);
+    padding: 12px;
+    resize: none;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+}
+.frontbtn{    
+    background: #0088ff36;
+}
+#crud{
+    padding-top: 30px;
+}
+
+@media(max-width: 576.99px){
+    td,th{
+        padding: 1px;
+    }
+}

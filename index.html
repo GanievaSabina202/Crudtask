@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="owlCarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="owlCarousel/owl.theme.default.min.css">
+
+    <!-- Font awasome -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/73bdb97465.js" crossorigin="anonymous"></script>
+
+    <!-- Fonts -->
+    <link rel="stylesheet" href="font/style.css">
+
+    <!-- Mine css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Jquery Crud</title>
+</head>
+
+<body>
+
+    <section id="crud">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 form-container">
+                    <form class="form">
+                        <input type="text" placeholder="Ad yazin..."
+                        id="ad" class="form-wrapper">                        
+                        <input type="text" placeholder="Soyad yazin..."
+                        id="soyad" class="form-wrapper">
+                        <input type="email" placeholder="Email yazin..."
+                        id="email" class="form-wrapper">
+                       
+                       <div>
+                        <select id="cinsiyyet">
+                            <option disabled selected>Cinsiyyet</option>
+                            <option value="kisi">K</option>
+                            <option value="qadın">Q</option>
+                        </select>
+                        <button id="button" type="button" class="frontbtn">Əlavə Et</button>
+                  
+                       </div>
+                      
+                    </form>
+                </div>
+                <div class="col-lg-8  col-sm-12 table-container">
+                    <table class="table-warpper">
+                       <thead>
+                        <th>Ad</th>
+                        <th>Soyad</th>
+                        <th>Email</th>
+                        <th>Cinsiyyet</th>
+                        <th>Secim</th>
+                       </thead>
+                       <tbody class="tbody">
+
+                       </tbody>
+                    </table>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.slim.min.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <script src="js/jquery-3.5.1.min.js "></script>
+    <!-- owlCarousel -->
+    <script src="owlCarousel/owl.carousel.min.js "></script>
+    <!-- Mine js -->
+    <script src="js/main.js "></script>
+
+</body>
+
+</html>
